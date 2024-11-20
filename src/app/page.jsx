@@ -26,6 +26,7 @@ const Home = () => {
               title={product.title}
               category={product.category}
               price={product.price}
+              slug={product.slug}
             />
           ))} 
 
