@@ -25,7 +25,7 @@ export default function CardComponent({image,title,category,price,slug}) {
       <div className="p-3">
         <h1>{title}</h1>
         <p>{category}</p>
-        <h1>${price}</h1>
+        <h1>{price}</h1>
         
           <button className="w-[100%] p-3 bg-[#f80]   rounded mt-2 focus:bg-amber-950">
             Add to cart

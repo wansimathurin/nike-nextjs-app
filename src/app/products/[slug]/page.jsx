@@ -33,7 +33,7 @@ export default function ProductPage({ params }) {
   return (
     <div>
       <NavbarComponent />
-      <div className="flex gap-5 p-5 justify-center">
+      <div className="flex gap-5 p-5 justify-center min-h-screen pt-20">
         {/* Thumbnail Images Section */}
         <div className="w-[10%] flex flex-col gap-3">
           {product.images.map((image, index) => (
@@ -61,7 +61,7 @@ export default function ProductPage({ params }) {
         </div>
 
         {/* Product Details Section */}
-        <div className="w-full lg:w-1/4 flex flex-col gap-3 sticky top-0 mt-12">
+        <div className="w-full lg:w-1/4 flex flex-col gap-3 lg:sticky top-20  h-[500px]">
           <h1 className="text-3xl font-bold">{mainProduct.title}</h1>
           <p className="text-gray-400">{mainProduct.description}</p>
           <p className="text-xl font-semibold">{mainProduct.price}</p>
