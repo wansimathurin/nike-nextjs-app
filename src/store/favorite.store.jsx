@@ -17,3 +17,9 @@ export const useStoreFavorite = create((set) => ({
     set(() => ({ selectedHeartIds: [] }));
   },
 }));
+
+
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// numbers = [...numbers, 57,8,39,33]

@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     title: "Air jordan",
-    price: "$100",
+    price: 100,
     category: "men's Shoe",
     image: "/shoes/1.jpg",
     description:
@@ -21,7 +21,7 @@ export const products = [
   {
     id: 2,
     title: "Stan Maquine",
-    price: "$150",
+    price: 150,
     category: "men's Shoe",
     image: "/shoes/2.jpg",
     description:
@@ -40,7 +40,7 @@ export const products = [
   {
     id: 3,
     title: "Air for One",
-    price: "$200",
+    price: 200,
     category: "men's Shoe",
     image: "/shoes/3.jpg",
     description:
@@ -60,7 +60,7 @@ export const products = [
   {
     id: 4,
     title: "Stan Smith",
-    price: "$500",
+    price: 500,
     category: "men's Shoe",
     image: "/shoes/4.jpg",
     description:
@@ -79,7 +79,7 @@ export const products = [
   {
     id: 5,
     title: "Alexander maquine",
-    price: "$270",
+    price: 270,
     category: "men's Shoe",
     image: "/shoes/5.jpg",
     description:
@@ -98,7 +98,7 @@ export const products = [
   {
     id: 6,
     title: "Air max",
-    price: "$280",
+    price: 280,
     category: "men's Shoe",
     image: "/shoes/6.jpg",
     description:
@@ -117,7 +117,7 @@ export const products = [
   {
     id: 7,
     title: "New Balance",
-    price: "$350",
+    price: 350,
     category: "men's Shoe",
     image: "/shoes/7.jpg",
     description:
@@ -136,7 +136,7 @@ export const products = [
   {
     id: 8,
     title: "Nike cortez",
-    price: "$850",
+    price: 850,
     category: "men's Shoe",
     image: "/shoes/8.jpg",
     description:

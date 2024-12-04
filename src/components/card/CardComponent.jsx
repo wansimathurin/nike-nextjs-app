@@ -42,12 +42,12 @@ export default function CardComponent({id, image, title, category, price, slug }
       <div className="p-3 text-gray-300">
         <h1>{title}</h1>
         <p>{category}</p>
-        <h1>{price}</h1>
+        <h1>${price}</h1>
 
         <button
           onClick={() => toggleId(id)}
           className={`w-[100%] p-3 ${
-            selectedIds.includes(id) ? "bg-[#0f3]" : "bg-[#f80]"
+            selectedIds.includes(id) ? "bg-amber-950" : "bg-[#f80]"
           } rounded mt-2 focus:bg-amber-950`}
         >
           {selectedIds.includes(id) ? "Remove from Cart" : "Add to Cart"}
